@@ -35,7 +35,7 @@ center{
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #0f161c; /* the coor for the backround menu*/
+  background-color: #0f161c; /* the color for the backround menu*/
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 16px;
@@ -62,6 +62,7 @@ center{
   right: 25px;
   font-size: 30px;
   margin-left: 50px;
+  margin-top: 10px
 }
 
 #main {
