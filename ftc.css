@@ -2,13 +2,33 @@ body{
   background-color: black;
 }
 
+p{
+  color: #EB5E55;
+  padding-left: 50px;
+  font-family: 'Arial';
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 2px;
+
+}
+
 h1{
-  color: white;
+  color: #EB5E55;
+  padding-left: 50px;
+  font-family: 'Arial';
+  font-size: 33px;
+  margin-left: 100px;
+  margin-right: 100px;
+
 }
 h2{
-  color:white;
-  font-family: arial;
+  color: #AFBBF2;
   font-size: 15px;
+  padding-left: 50px;
+  font-family: 'verdana';
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /*SIDEBAR*/
