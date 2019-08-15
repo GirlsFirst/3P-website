@@ -9,6 +9,9 @@
   display: table;
   clear: both;
 }
+ul {
+    list-style-type: none;
+}
 center{
   color: #ffffff;
   font-size: 40px;
