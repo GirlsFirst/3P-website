@@ -1,68 +1,33 @@
-<!DOCTYPE html>
-<head>
-<div id="ytplayer"></div>
-<link rel="stylesheet" href="mystylesheet.css">
+<h5>
+<center><script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 4, 2020 10:37:25").getTime();
 
-</head>
-<body>
+// Update the count down every 1 second
+var x = setInterval(function() {
 
-  <center>
- <p>
-   Hello!
- </p>
- <p>
-   Welcome to the Coding Website!
-</p>
-<p>
-   This website gives you acess to articles, videos, as well as basic information that can teach you how to code in Java!
-</p>
-<p>
-  FRC/FTC mostly use java, but java does not use only one platfrom to code.
-</p>
-<p>
-  Teams use a wide range of coding platrforms like LabView (a intense block code) to visuial code studio (a free hand coding platfrom)
-</p>
-<p>
-  It is best that before  you start learning java you know what platform your team uses so you can efficelty use you time learming java effectivly
-</p>
-</center>
+  // Get today's date and time
+  var now = new Date().getTime();
 
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
 
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-<div class="row">
-<div class="column">
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
 
-<iframe width="500" height="600"
- src="https://www.youtube.com/embed/2dZiMBwX_5Q">
-</iframe></div>
-<iframe width="500" height="600"
- src="https://www.youtube.com/embed/eIrMbAQSU34">
-</iframe></div>
-<center>
-  <p>
-      More videos:
-  </p>
-  <p>
-      <a href="https://www.youtube.com/watch?v=GoXwIVyNvX0">Intro to Java Programming - Course for Absolute Beginners</a>
-  </p>
-  <p>
-      <a href="https://www.youtube.com/watch?v=LdXcSDuJUlE">Java Tutorial For Beginners 1- introduction to java-Animation video</a>
-  </p>
-  <p>
-      <a href="https://www.youtube.com/watch?v=3OKLJ6DieFc">Intro to Java Programming - Java Tutorial for Beginners</a>
-  </p>
-  <p>
-      <a href="https://www.youtube.com/watch?v=3u1fu6f8Hto">Java Tutorial for Beginners - Made Easy</a>
-  </p>
-  <p>
-      <a href="https://www.youtube.com/watch?v=TjYTpEOiNAI&feature=youtu.be">Java IDE Setup Mac</a>
-  </p>
-  <p>
-      <a href="https://www.youtube.com/watch?v=6FmUcUMkZVQ&feature=youtu.be">Java IDE Setup Windows</a>
-    </p>
-</center>
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
 
-
-
-
-</body>
+  }
+}, 1000);
+</script>
+</h5>
