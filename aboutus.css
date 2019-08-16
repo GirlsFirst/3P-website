@@ -1,6 +1,28 @@
+p{
+  color: #2A2693;
+  font-family: arial;
+  font-size: 14px;
+  margin: 20px;
+}
+h1{
+  font-family: helvetica;
+  color: white;
+  margin: 20px;
+}
+
+h2{
+  color: #2A2693;
+  font-family: trebuchet;
+  font-size: 30px
+  margin: 20px;
+}
+
 body{
   background-color: black;
 }
+
+
+
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #131621;
@@ -19,7 +41,22 @@ body{
   box-sizing: border-box;
 }
 
+img{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
 #fname{
+  font-family: courier;
+  font-weight: bold;
+}
+#lname{
+  font-family: courier;
+  font-weight: bold;
+}
+
+#subject{
   font-family: courier;
   font-weight: bold;
 }
@@ -31,11 +68,11 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  background-color: #828453;
+  background-color: #ADA7B2;
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #E59500;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -43,7 +80,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #CC3D33;
 }
 
 /* Style the container/contact section */
