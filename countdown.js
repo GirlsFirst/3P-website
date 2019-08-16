@@ -1,5 +1,21 @@
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgb(0, 0, 0)";
+
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "black"; // color of background when not closed
+}
+
+
+
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 4, 2020 10:00:00").getTime();
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
 // Update the count down every 1 second
 var x = setInterval(function() {
 
