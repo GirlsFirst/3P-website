@@ -1,33 +1,68 @@
-<h5>
-<center><script>
-// Set the date we're counting down to
-var countDownDate = new Date("Jan 4, 2020 10:37:25").getTime();
+<!DOCTYPE>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet" type = "text/css" href = "disdropmenu.css">
+  <script  src = "finalp3.js">
+  document.title = "Bubble With Us.com";
+  </script>
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+</head>
 
-  // Get today's date and time
-  var now = new Date().getTime();
+<body>
+  <span style="color: white; padding-left: 50px; font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<div id="main">
+<h1> What is FRC </h1>
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+<h2>
+FRC is a competive robotics competionnwhere students build a robot during build season and then use the robot to complete challenges of the years competion
+<h2>
+<h1>
+    What positions are avaliable in a FRC teams?
+</h1>
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  <h2>
+    <p>
+    Coding: Coders are in charge of programing the robot with movement, sensors, and buttons so that the robot can funnction
+    </p>
+    <p>
+    Build: Build team is in charge of building the robot. They take care of wiring, building the habitat model and game piece model for pratice, and builidng the hardware
+    </p>
+    <p>
+    Scouting/Stratgey: Scouters/Stratigies will talk to other teams during competion to find out more about their robot. They work closely with drive team
+    </p>
+    <p>
+    Business: Business team is in charge of keeping track of the teams funds. They look for sponserships from other companies while making sure the team is not over spending
+    </p>
+    <p>
+    Drive: Drive team is in charge of operating thr robot during the game. It consist of a Drive team captin, two drivers, and a human player
+    </p>
+  <h1> 2019 Game play <h1>
+  </h2>
+  <div class="column"> <iframe width="700" height="600" src="https://www.youtube.com/embed/Mew6G_og-PI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="column"> <iframe width="700" height="600" <iframe width="560" height="315" src="https://www.youtube.com/embed/SI-lGDkumDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </iframe></div>
+</div>
 
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  <div id="mySidenav" class="sidenav">
 
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    <ul>
+      <li><a></a></li>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <li><a href="file:///C:/Users/Prudential/Desktop/HTML/First/desdropmenu.html">Home</a></li>
+        <li><a href="file:///C:/Users/Prudential/Desktop/HTML/First/aboutfirst.html">About FIRST</a></li>
+        <li><a href="file:///C:/Users/Prudential/Desktop/HTML/First/FTC.html">FTC</a></li>
+        <li><a href="file:///C:/Users/Prudential/Desktop/HTML/FRC.html">FRC</a></li>
+        <li><a href="file:///Users/juliarodano/github/FIRST/coding.html">Coding</a></li>
+        <li><a href="file:///C:/Users/Prudential/Desktop/HTML/hardwear.html">Hardware</a></li>
+        <li><a href="https://www.chiefdelphi.com/t/frc-ftc-help/361440">Forum</a></li>
+        <li><a href="link the page">Scouting Templetes</a></li>
+        <li><a href="link the page">Countdown Page</a></li>
+        <li><a href="link the page">Help</a></li>
+        <li><a href="link the page">About Us</a></li>
+    </ul>
 
-  }
-}, 1000);
-</script>
-</h5>
+
+</body>
+</html>
