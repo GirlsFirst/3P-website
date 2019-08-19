@@ -1,11 +1,11 @@
 body{
-  background-color: black;
+  background-color: #3B5866;
 }
 
 p{
   color: #EB5E55;
   padding-left: 50px;
-  font-family: 'Arial';
+  font-family: 'muli';
   font-size: 20px;
   margin-left: 100px;
   margin-right: 100px;
@@ -17,13 +17,18 @@ p{
 h1{
   color: #EB5E55;
   padding-left: 50px;
-  font-family: 'Arial';
+  font-family: 'times new roman';
   font-size: 33px;
+  text-transform: uppercase;
+  text-align: center;
   margin-left: 100px;
   margin-right: 100px;
 
 }
 h2{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
   color: #AFBBF2;
   font-size: 15px;
   padding-left: 50px;

@@ -1,5 +1,5 @@
 p{
-  color: #2A2693;
+  color: #0F0F0E;
   font-family: arial;
   font-size: 14px;
   margin-left: 100px;
@@ -49,7 +49,7 @@ img{
   border-bottom-right-radius: 20px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  
+
 }
 #fname{
   font-family: courier;
