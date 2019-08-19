@@ -12,28 +12,44 @@
 }
 
 body{
-  background-color: #000000;
-}
-h1 {
-  color: #EB5E55;
-  font-size:50px;
-  margin-left: 100px;
-  margin-top: 60px;
-  margin-right: 100px;
-  font-family: 'Arial';
-  line-height: 9px;
- /*this is the problem for the color*/
-  /*Try courier new, georgia, or lucida console if this doesn't look right */
+  background-color: #2D444F;
 }
 
-h2 {
-  color: #AFBBF2;
-  font-size:16px;
+p{
+  color: #EB5E55;
+  padding-left: 50px;
+  font-family: 'muli';
+  font-size: 20px;
   margin-left: 100px;
   margin-right: 100px;
-  font-family: 'verdana';
-  /*try verdana, gill sans, or tahoma if this one doesn't look right*/
+  line-height: 2px;
+
 }
+
+
+h1{
+  color: #ffffff;
+  padding-left: 50px;
+  font-family: 'times new roman';
+  font-size: 33px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+h2{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+  color: #B3C0A4;
+  font-size: 15px;
+  padding-left: 50px;
+  font-family: 'verdana';
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 
 
 ul {
@@ -44,6 +60,12 @@ center{
   color: #ffffff;
   font-size: 40px;
   margin-top: 30px;
+  text-align: justify;
+  letter-spacing: 1px;
+  color: #B3C0A4;
+  font-size: 15px;
+  font-family: 'verdana';
+
 
   /* color for the header for FRIST */
 }

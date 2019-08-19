@@ -1,5 +1,5 @@
 body{
-  background-color: #3B5866;
+  background-color: #2D444F;
 }
 
 p{
@@ -15,7 +15,7 @@ p{
 
 
 h1{
-  color: #EB5E55;
+  color: #ffffff;
   padding-left: 50px;
   font-family: 'times new roman';
   font-size: 33px;
@@ -29,7 +29,7 @@ h2{
   text-indent: 50px;
   text-align: justify;
   letter-spacing: 1px;
-  color: #AFBBF2;
+  color: #B3C0A4;
   font-size: 15px;
   padding-left: 50px;
   font-family: 'verdana';
