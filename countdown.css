@@ -11,16 +11,27 @@
   clear: both;
 }
 
-body{
-  background-color: #000000;
-}
-h1 {
+p{
   color: #EB5E55;
   font-size:30px;
   margin-left: 100px;
   margin-top: 60px;
   margin-right: 100px;
-  font-family: 'Century Gothic', sans-serif;
+  font-family: 'Arial';
+  line-height: 9px;
+
+}
+
+body{
+  background-color: #000000;
+}
+h1 {
+  color: #EB5E55;
+  font-size:50px;
+  margin-left: 100px;
+  margin-top: 60px;
+  margin-right: 100px;
+  font-family: 'Arial';
   line-height: 9px;
  /*this is the problem for the color*/
   /*Try courier new, georgia, or lucida console if this doesn't look right */
@@ -28,10 +39,10 @@ h1 {
 
 h2 {
   color: #AFBBF2;
-  font-size:20px;
+  font-size:16px;
   margin-left: 100px;
   margin-right: 100px;
-  font-family: 'Alegreya';
+  font-family: 'verdana';
   /*try verdana, gill sans, or tahoma if this one doesn't look right*/
 }
 
