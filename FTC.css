@@ -69,7 +69,11 @@ center{
   z-index: 1;
   top: 0;
   left: 0;
+<<<<<<< HEAD
   background-color:  #2D444F; /* the coor for the backround menu*/
+=======
+  background-color: #2D444F; /* the coor for the backround menu*/
+>>>>>>> bafdb282714971903990fa91ff114261086cbf75
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 16px;
